@@ -2,7 +2,10 @@ import React from "react"
 import logo from "./assets/logo-02.png"
 import hero_iconi_mg from "./assets/hero icon-03.png"
 import hero_img from "./assets/b-hero-02.png"
-import aboutImg from "./assets/hero img-04.png"
+import aboutImg from "./assets/hero img-04 copy.png"
+import bg from "./assets/bg.jpg"
+import busines_card_back from "./assets/busines card back-02.jpg"
+import busines_card_front from "./assets/busines card front-03.jpg"
 function App() {
 
   return (
@@ -157,7 +160,7 @@ function App() {
                           <div class="text-center bg-[#f3911d] text-white p-2 group-hover:bg-[#0c2650] font-semibold">Weather Now App</div>
                           <div class="space-y-2">
                               <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hidden" >
-                                  <img src="./images/busines card back-02.jpg" alt="" class="w-[100%] h-[100%]" srcset=""/>
+                                  <img src={busines_card_front} alt="" class="w-[100%] h-[100%]" srcset=""/>
                               </div>
                               <p class="px-4"> Cid walba oo itoobiya taageerta waa in dalka laga tarxiilaa,ama xasiga la dhigaa hadii kale waxaa imaan doono qaa imiin.</p>
                               <div class="flex px-3 gap-3 ">
@@ -182,7 +185,7 @@ function App() {
                           <div class="text-center bg-[#f3911d] text-white p-2 group-hover:bg-[#0c2650] font-semibold">Weather Now App</div>
                           <div class="space-y-2">
                               <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hidden" >
-                                  <img src="./images/busines card front-03.jpg" alt="" class="w-[100%] h-[100%]" srcset=""/>
+                                  <img src={bg} alt="" class="w-[100%] h-[100%]" srcset=""/>
                               </div>
                               <p class="px-4"> Cid walba oo itoobiya taageerta waa in dalka laga tarxiilaa,ama xasiga la dhigaa hadii kale waxaa imaan doono qaa imiin.</p>
                               <div class="flex px-3 gap-3 ">
@@ -207,7 +210,7 @@ function App() {
                           <div class="text-center bg-[#f3911d] text-white p-2 group-hover:bg-[#0c2650] font-semibold">Weather Now App</div>
                           <div class="space-y-2">
                               <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hidden" >
-                                  <img src="./images/bg-04.jpg" alt="" class="w-[100%] h-[100%]" srcset=""/>
+                                  <img src={busines_card_front} alt="" class="w-[100%] h-[100%]" srcset=""/>
                               </div>
                               <p class="px-4"> Cid walba oo itoobiya taageerta waa in dalka laga tarxiilaa,ama xasiga la dhigaa hadii kale waxaa imaan doono qaa imiin.</p>
                               <div class="flex px-3 gap-3 ">
