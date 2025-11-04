@@ -2,6 +2,7 @@ import React from "react"
 import logo from "./assets/logo-02.png"
 import hero_iconi_mg from "./assets/hero icon-03.png"
 import hero_img from "./assets/b-hero-02.png"
+import aboutImg from "./assets/hero img-04.png"
 function App() {
 
   return (
@@ -110,7 +111,7 @@ function App() {
               </div>
               <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3">
                   <div class="flex justify-start items-center ">
-                      <img src="images/hero img-04.png" class="w-[100%] " alt="" srcset=""/>
+                      <img src={aboutImg} class="w-[100%] " alt="" srcset=""/>
                   </div>
                   <div class="col-span-2  flex items-center">
                       <div class="space-y-1 text-md bg-[#fff1] p-3 shadow-lg shadow-[#fff2] rounded">
