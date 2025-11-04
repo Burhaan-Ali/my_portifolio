@@ -184,8 +184,8 @@ function App() {
                       <div class="rounded overflow-hidden border border-[#] shadow-md dark:shadow-[#fff8] w-[350px] hover:text-[#fff] group hover:bg-[#0c2650] cursor-pointer">
                           <div class="text-center bg-[#f3911d] text-white p-2 group-hover:bg-[#0c2650] font-semibold">Weather Now App</div>
                           <div class="space-y-2">
-                              <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hidden" >
-                                  <img src={bg} alt="" class="w-[100%] h-[100%]" srcset=""/>
+                              <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hiden" >
+                                  <img src={bg} alt="" class="h-full w-full" srcset=""/>
                               </div>
                               <p class="px-4"> Cid walba oo itoobiya taageerta waa in dalka laga tarxiilaa,ama xasiga la dhigaa hadii kale waxaa imaan doono qaa imiin.</p>
                               <div class="flex px-3 gap-3 ">
