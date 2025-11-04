@@ -1,4 +1,7 @@
 import React from "react"
+import logo from "./assets/logo-02.png"
+import hero_iconi_mg from "./assets/hero icon-03.png"
+import hero_img from "./assets/b-hero-02.png"
 function App() {
 
   return (
@@ -8,7 +11,7 @@ function App() {
               <header class="header py-3">
                   <div class=" max-w-5xl flex mx-auto justify-between">
                       <div class="flex gap-2 items-center">
-                          <img src="images/logo-02.png" class="w-[30px]" alt="" srcset=""/>
+                          <img src={logo} class="w-[30px]" alt="" srcset=""/>
                           <div class="text-2xl font-bold">BURHAAN</div>
                       </div>
                       <nav class="md:flex text-md space-x-4 items-center hidden">
@@ -26,7 +29,7 @@ function App() {
           <div class="px-6 py-12 " id="home">
               <div class="max-w-5xl mx-auto grid md:grid-cols-2 grid-cols-1">
                   <div class="flex flex-col justify-center gap-5">
-                      <img src="images/hero icon-03.png" class="w-8" alt="" srcset=""/>
+                      <img src={hero_iconi_mg} class="w-8" alt="" srcset=""/>
                       <div class="text-lg font-semibold">I am <span class="text-[#f3911d]">burhaan</span> ali</div>
                       <div class="text-3xl md:text-4xl font-extrabold">Full Stack Developer</div>
                       <p class="text-lg text-gray-600 dark:text-gray-100">I build smart, functional web systems that simplify daily office and learning operations. 
@@ -52,7 +55,7 @@ function App() {
                       </div>
                   </div>
                   <div class="md:flex justify-end items-center hidden">
-                      <img src="images/b-hero-02.png" class="w-[75%]" alt="" srcset=""/>
+                      <img src={hero_img} class="w-[75%]" alt="" srcset=""/>
                   </div>
               </div>
           </div>
@@ -68,7 +71,7 @@ function App() {
                   </div>
               </div>  */}
               <div class="max-w-5xl mx-auto flex flex-wrap justify-center gap-4 dark:text-[#0c2650]">
-                  <div class="bg-gradient-to-bl from-white to-indigo-100 rounded shadow-md border cursor-pointer group hover:bg-[#0c2650] p-4 w-[300px] py-6">
+                  <div class="bg-linear-to-bl from-white to-indigo-100 rounded shadow-md border cursor-pointer group hover:bg-[#0c2650] p-4 w-[300px] py-6">
                       <div class="flex flex-col items-center">
                           <div class="text-center text-[#f3911d]">
                               <i class="fas fa-computer text-4xl"></i>
