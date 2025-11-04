@@ -210,7 +210,7 @@ function App() {
                           <div class="text-center bg-[#f3911d] text-white p-2 group-hover:bg-[#0c2650] font-semibold">Weather Now App</div>
                           <div class="space-y-2">
                               <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hidden" >
-                                  <img src={busines_card_front} alt="" class="w-[100%] h-[100%]" srcset=""/>
+                                  <img src={busines_card_back} alt="" class="w-full" srcset=""/>
                               </div>
                               <p class="px-4"> Cid walba oo itoobiya taageerta waa in dalka laga tarxiilaa,ama xasiga la dhigaa hadii kale waxaa imaan doono qaa imiin.</p>
                               <div class="flex px-3 gap-3 ">
