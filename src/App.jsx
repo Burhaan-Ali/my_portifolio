@@ -74,11 +74,11 @@ function App() {
               {/* <div class="flex flex-col md:items-center items-start justify-center gap-4">
                   <div class="font-semibold text-3xl"> <span class="text-[#f3911d]">My</span> Services</div>
                   <div class="flex gap-1">
-                      <div class="w-[15px] h-[2px] bg-[#0c2650] rounded-full"></div>
-                      <div class="w-[50px] h-[2px] bg-[#f3911d] rounded-full"></div>
-                      <div class="w-[15px] h-[2px] bg-[#0c2650] rounded-full"></div>
-                      <div class="w-[15px] h-[2px] bg-[#0c2650] rounded-full"></div>
-                      <div class="w-[15px] h-[2px] bg-[#0c2650] rounded-full"></div>
+                      <div class="w-[15px] h-0.5 bg-[#0c2650] rounded-full"></div>
+                      <div class="w-[50px] h-0.5 bg-[#f3911d] rounded-full"></div>
+                      <div class="w-[15px] h-0.5 bg-[#0c2650] rounded-full"></div>
+                      <div class="w-[15px] h-0.5 bg-[#0c2650] rounded-full"></div>
+                      <div class="w-[15px] h-0.5 bg-[#0c2650] rounded-full"></div>
                   </div>
               </div>  */}
               <div class="max-w-5xl mx-auto flex flex-wrap justify-center gap-4 dark:text-[#0c2650]">
@@ -113,16 +113,16 @@ function App() {
               <div class="flex flex-col items-center justify-center gap-4">
                   <div class="font-semibold text-3xl"> <span class="text-[#f3911d]">About</span> Me</div>
                   <div class="flex gap-1">
-                      <a href="#home" class="w-[15px] h-[2px] bg-[#fff] rounded-full"></a>
-                      <a href="#about" class="w-[50px] h-[2px] bg-[#f3911d] rounded-full"></a>
-                      <a href="#project" class="w-[15px] h-[2px] bg-[#fff] rounded-full"></a>
-                      <a href="#contact" class="w-[15px] h-[2px] bg-[#fff] rounded-full"></a>
-                      <a href="#" class="w-[15px] h-[2px] bg-[#fff] rounded-full"></a>
+                      <a href="#home" class="w-[15px] h-0.5 bg-white rounded-full"></a>
+                      <a href="#about" class="w-[50px] h-0.5 bg-[#f3911d] rounded-full"></a>
+                      <a href="#project" class="w-[15px] h-0.5 bg-white rounded-full"></a>
+                      <a href="#contact" class="w-[15px] h-0.5 bg-white rounded-full"></a>
+                      <a href="#" class="w-[15px] h-0.5 bg-white rounded-full"></a>
                   </div>
               </div>
               <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3">
                   <div class="flex justify-start items-center ">
-                      <img src={aboutImg} class="w-[100%] " alt="" srcset=""/>
+                      <img src={aboutImg} class="w-full " alt="" srcset=""/>
                   </div>
                   <div class="col-span-2  flex items-center">
                       <div class="space-y-1 text-md bg-[#fff1] p-3 shadow-lg shadow-[#fff2] rounded">
@@ -155,100 +155,100 @@ function App() {
               <div class="flex flex-col items-center justify-center gap-4">
                   <div class="font-semibold text-3xl"> <span class="text-[#f3911d]">My</span> Projects</div>
                   <div class="flex gap-1">
-                      <a href="#home" class="w-[15px] h-[2px] bg-[#0c2650] rounded-full dark:bg-[#fff]"></a>
-                      <a href="#about" class="w-[15px] h-[2px] bg-[#0c2650] rounded-full dark:bg-[#fff]"></a>
-                      <a href="#project" class="w-[50px] h-[2px] bg-[#f3911d] rounded-full"></a>
-                      <a href="#contact" class="w-[15px] h-[2px] bg-[#0c2650] rounded-full dark:bg-[#fff]"></a>
-                      <a href="#" class="w-[15px] h-[2px] bg-[#0c2650] rounded-full dark:bg-[#fff]"></a>
+                      <a href="#home" class="w-[15px] h-0.5 bg-[#0c2650] rounded-full dark:bg-white"></a>
+                      <a href="#about" class="w-[15px] h-0.5 bg-[#0c2650] rounded-full dark:bg-white"></a>
+                      <a href="#project" class="w-[50px] h-0.5 bg-[#f3911d] rounded-full"></a>
+                      <a href="#contact" class="w-[15px] h-0.5 bg-[#0c2650] rounded-full dark:bg-white"></a>
+                      <a href="#" class="w-[15px] h-0.5 bg-[#0c2650] rounded-full dark:bg-white"></a>
                   </div>
               </div>
               <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                   <div class="flex justify-center ">
-                      <div class="rounded overflow-hidden border border-[#] shadow-md dark:shadow-[#fff8] w-[350px] hover:text-[#fff] group hover:bg-[#0c2650] cursor-pointer">
+                      <div class="rounded overflow-hidden border border-[#] shadow-md dark:shadow-[#fff8] w-[350px] hover:text-white group hover:bg-[#0c2650] cursor-pointer">
                           <div class="text-center bg-[#f3911d] text-white p-2 group-hover:bg-[#0c2650] font-semibold">Weather Now App</div>
                           <div class="space-y-2">
-                              <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hidden" >
+                              <div class="w-100 h-[200px] p-1 bg-white overflow-hidden" >
                                   <img src={busines_card_front} alt="" class="h-full w-full" srcset=""/>
                               </div>
                               <p class="px-4"> Cid walba oo itoobiya taageerta waa in dalka laga tarxiilaa,ama xasiga la dhigaa hadii kale waxaa imaan doono qaa imiin.</p>
                               <div class="flex px-3 gap-3 ">
-                                  <div class="text-[#f3911d] group-hover:text-[#fff] text-3xl">
+                                  <div class="text-[#f3911d] group-hover:text-white text-3xl">
                                       <i class="fab fa-react"></i>
                                   </div>
-                                  <div class="text-[#f3911d] group-hover:text-[#fff] text-3xl">
+                                  <div class="text-[#f3911d] group-hover:text-white text-3xl">
                                       <i class="fas fa-database"></i>
                                   </div>
-                                  <div class="text-[#f3911d] group-hover:text-[#fff] text-3xl">
+                                  <div class="text-[#f3911d] group-hover:text-white text-3xl">
                                       <i class="fab fa-php"></i>
                                   </div>
                               </div>
                               <div class="flex p-4">
-                                  <a href="#projects" class="w-[100%] py-2 group-hover:bg-[#f3911d] bg-[#0c2650] text-white rounded-md text-center font-semibold shadow hover:bg-[#f3911d]">Demo</a>
+                                  <a href="#projects" class="w-full py-2 group-hover:bg-[#f3911d] bg-[#0c2650] text-white rounded-md text-center font-semibold shadow hover:bg-[#f3911d]">Demo</a>
                               </div>
                           </div>
                       </div>
                   </div> 
                   <div class="flex justify-center ">
-                      <div class="rounded overflow-hidden border border-[#] shadow-md dark:shadow-[#fff8] w-[350px] hover:text-[#fff] group hover:bg-[#0c2650] cursor-pointer">
+                      <div class="rounded overflow-hidden border border-[#] shadow-md dark:shadow-[#fff8] w-[350px] hover:text-white group hover:bg-[#0c2650] cursor-pointer">
                           <div class="text-center bg-[#f3911d] text-white p-2 group-hover:bg-[#0c2650] font-semibold">Weather Now App</div>
                           <div class="space-y-2">
-                              <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hidnden" >
+                              <div class="w-100 h-[200px] p-1 bg-white overflow-hidnden" >
                                   <img src={bg} alt="" class="h-full w-full" srcset=""/>
                               </div>
                               <p class="px-4"> Cid walba oo itoobiya taageerta waa in dalka laga tarxiilaa,ama xasiga la dhigaa hadii kale waxaa imaan doono qaa imiin.</p>
                               <div class="flex px-3 gap-3 ">
-                                  <div class="text-[#f3911d] group-hover:text-[#fff] text-3xl">
+                                  <div class="text-[#f3911d] group-hover:text-white text-3xl">
                                       <i class="fab fa-react"></i>
                                   </div>
-                                  <div class="text-[#f3911d] group-hover:text-[#fff] text-3xl">
+                                  <div class="text-[#f3911d] group-hover:text-white text-3xl">
                                       <i class="fas fa-database"></i>
                                   </div>
-                                  <div class="text-[#f3911d] group-hover:text-[#fff] text-3xl">
+                                  <div class="text-[#f3911d] group-hover:text-white text-3xl">
                                       <i class="fab fa-php"></i>
                                   </div>
                               </div>
                               <div class="flex p-4">
-                                  <a href="#projects" class="w-[100%] py-2 group-hover:bg-[#f3911d] bg-[#0c2650] text-white rounded-md text-center font-semibold shadow hover:bg-[#f3911d]">Demo</a>
+                                  <a href="#projects" class="w-full py-2 group-hover:bg-[#f3911d] bg-[#0c2650] text-white rounded-md text-center font-semibold shadow hover:bg-[#f3911d]">Demo</a>
                               </div>
                           </div>
                       </div>
                   </div> 
                   <div class="flex justify-center ">
-                      <div class="rounded overflow-hidden border border-[#] shadow-md dark:shadow-[#fff8] w-[350px] hover:text-[#fff] group hover:bg-[#0c2650] cursor-pointer">
+                      <div class="rounded overflow-hidden border border-[#] shadow-md dark:shadow-[#fff8] w-[350px] hover:text-white group hover:bg-[#0c2650] cursor-pointer">
                           <div class="text-center bg-[#f3911d] text-white p-2 group-hover:bg-[#0c2650] font-semibold">Weather Now App</div>
                           <div class="space-y-2">
-                              <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hidden" >
+                              <div class="w-100 h-[200px] p-1 bg-white overflow-hidden" >
                                   <img src={busines_card_back} alt="" class="h-full w-full" srcset=""/>
                               </div>
                               <p class="px-4"> Cid walba oo itoobiya taageerta waa in dalka laga tarxiilaa,ama xasiga la dhigaa hadii kale waxaa imaan doono qaa imiin.</p>
                               <div class="flex px-3 gap-3 ">
-                                  <div class="text-[#f3911d] group-hover:text-[#fff] text-3xl">
+                                  <div class="text-[#f3911d] group-hover:text-white text-3xl">
                                       <i class="fab fa-react"></i>
                                   </div>
-                                  <div class="text-[#f3911d] group-hover:text-[#fff] text-3xl">
+                                  <div class="text-[#f3911d] group-hover:text-white text-3xl">
                                       <i class="fas fa-database"></i>
                                   </div>
-                                  <div class="text-[#f3911d] group-hover:text-[#fff] text-3xl">
+                                  <div class="text-[#f3911d] group-hover:text-white text-3xl">
                                       <i class="fab fa-php"></i>
                                   </div>
                               </div>
                               <div class="flex p-4">
-                                  <a href="#projects" class="w-[100%] py-2 group-hover:bg-[#f3911d] bg-[#0c2650] text-white rounded-md text-center font-semibold shadow hover:bg-[#f3911d]">Demo</a>
+                                  <a href="#projects" class="w-full py-2 group-hover:bg-[#f3911d] bg-[#0c2650] text-white rounded-md text-center font-semibold shadow hover:bg-[#f3911d]">Demo</a>
                               </div>
                           </div>
                       </div>
                   </div> 
               </div>
           </div>
-          <div class="px-6 py-12 space-y-8  bg-[#fff] dark:bg-black" id="contact">
+          <div class="px-6 py-12 space-y-8  bg-white dark:bg-black" id="contact">
               <div class="flex flex-col items-center justify-center gap-4">
                   <div class="font-semibold text-3xl"> <span class="text-[#f3911d]">Contact</span> Me</div>
                   <div class="flex gap-1">
-                      <a href="#home" class="w-[15px] h-[2px] bg-[#0c2650] rounded-full dark:bg-[#fff]"></a>
-                      <a href="#about" class="w-[15px] h-[2px] bg-[#0c2650] rounded-full dark:bg-[#fff]"></a>
-                      <a href="#project" class="w-[15px] h-[2px] bg-[#0c2650] rounded-full dark:bg-[#fff]"></a>
-                      <a href="#contact" class="w-[50px] h-[2px] bg-[#f3911d] rounded-full"></a>
-                      <a href="#" class="w-[15px] h-[2px] bg-[#0c2650] rounded-full dark:bg-[#fff]"></a>
+                      <a href="#home" class="w-[15px] h-0.5 bg-[#0c2650] rounded-full dark:bg-white"></a>
+                      <a href="#about" class="w-[15px] h-0.5 bg-[#0c2650] rounded-full dark:bg-white"></a>
+                      <a href="#project" class="w-[15px] h-0.5 bg-[#0c2650] rounded-full dark:bg-white"></a>
+                      <a href="#contact" class="w-[50px] h-0.5 bg-[#f3911d] rounded-full"></a>
+                      <a href="#" class="w-[15px] h-0.5 bg-[#0c2650] rounded-full dark:bg-white"></a>
                   </div>
               </div>
               <div class="max-w-5xl mx-auto">
@@ -256,8 +256,8 @@ function App() {
                       <div class="space-y-5">
                           <div class="font-bold text-[#f3911d] text-xl">Get In Touch</div>
                           <div class="font-semibold">Interested in working together or want to see a demo? Send me a message.</div>
-                          <a href="mailto:burhaancali784@gmail.com" class="flex items-center gap-3 font-semibold text-blue-900 dark:text-[#fff]">
-                              <div class="rounded-lg bg-[#0c265022] dark:bg-gray-800 hover:bg-[#f3911d] hover:text-[#fff] w-10 py-1 flex justify-center items-center">
+                          <a href="mailto:burhaancali784@gmail.com" class="flex items-center gap-3 font-semibold text-blue-900 dark:text-white">
+                              <div class="rounded-lg bg-[#0c265022] dark:bg-gray-800 hover:bg-[#f3911d] hover:text-white w-10 py-1 flex justify-center items-center">
                                   <i class="far fa-envelope text-xl"></i>
                               </div>
                               <div class="space-y-[-5px]">
@@ -265,8 +265,8 @@ function App() {
                                   <div class="text-sm text-gray-600">burhaancali784@gmail.com</div>
                               </div>
                           </a>
-                          <a href="tel:+252614048777" class="flex items-center gap-3 font-semibold text-blue-900 dark:text-[#fff]">
-                              <div class="rounded-lg bg-[#0c265022] dark:bg-gray-800 hover:bg-[#f3911d] hover:text-[#fff] w-10 py-1 flex justify-center items-center">
+                          <a href="tel:+252614048777" class="flex items-center gap-3 font-semibold text-blue-900 dark:text-white">
+                              <div class="rounded-lg bg-[#0c265022] dark:bg-gray-800 hover:bg-[#f3911d] hover:text-white w-10 py-1 flex justify-center items-center">
                                   <i class="far fa-message text-xl"></i>
                               </div>
                               <div class="space-y-[-5px]">
@@ -274,8 +274,8 @@ function App() {
                                   <div class="text-sm text-gray-600">+252614048777</div>
                               </div>
                           </a>
-                          <a href="#" class="flex items-center gap-3 font-semibold text-blue-900 dark:text-[#fff]">
-                              <div class="rounded-lg bg-[#0c265022] dark:bg-gray-800  hover:bg-[#f3911d] hover:text-[#fff] w-10 py-1 flex justify-center items-center">
+                          <a href="#" class="flex items-center gap-3 font-semibold text-blue-900 dark:text-white">
+                              <div class="rounded-lg bg-[#0c265022] dark:bg-gray-800  hover:bg-[#f3911d] hover:text-white w-10 py-1 flex justify-center items-center">
                                   <i class="far fa-map text-xl"></i>
                               </div>
                               <div class="space-y-[-5px]">
@@ -286,36 +286,36 @@ function App() {
                           <div class="font-bold text-xl">Connect on social media</div>
                           <div class="flex gap-4">
                               <a href="tel:+252614048777" class="flex items-center gap-3 font-semibold text-blue-900">
-                                  <div class="rounded-lg bg-[#0c265022] dark:text-[#fff] dark:bg-gray-800 hover:bg-[#f3911d] hover:text-[#fff] w-10 py-1 flex justify-center items-center">
+                                  <div class="rounded-lg bg-[#0c265022] dark:text-white dark:bg-gray-800 hover:bg-[#f3911d] hover:text-white w-10 py-1 flex justify-center items-center">
                                       <i class="fab fa-facebook text-xl"></i>
                                   </div>
                               </a>
                               <a href="tel:+252614048777" class="flex items-center gap-3 font-semibold text-blue-900">
-                                  <div class="rounded-lg bg-[#0c265022] dark:text-[#fff] dark:bg-gray-800 hover:bg-[#f3911d] hover:text-[#fff] w-10 py-1 flex justify-center items-center">
+                                  <div class="rounded-lg bg-[#0c265022] dark:text-white dark:bg-gray-800 hover:bg-[#f3911d] hover:text-white w-10 py-1 flex justify-center items-center">
                                       <i class="fab fa-instagram text-xl"></i>
                                   </div>
                               </a>
                               <a href="tel:+252614048777" class="flex items-center gap-3 font-semibold text-blue-900">
-                                  <div class="rounded-lg bg-[#0c265022] dark:text-[#fff] dark:bg-gray-800 hover:bg-[#f3911d] hover:text-[#fff] w-10 py-1 flex justify-center items-center">
+                                  <div class="rounded-lg bg-[#0c265022] dark:text-white dark:bg-gray-800 hover:bg-[#f3911d] hover:text-white w-10 py-1 flex justify-center items-center">
                                       <i class="fab fa-linkedin text-xl"></i>
                                   </div>
                               </a>
                           </div>
                       </div>
-                      <form action="#" class="space-y-3 border p-5 shadow-xl dark:shadow-[#fff4] rounded-xl bg-[#fff] dark:text-gray-600">
+                      <form action="#" class="space-y-3 border p-5 shadow-xl dark:shadow-[#fff4] rounded-xl bg-white dark:text-gray-600">
                           <div class="font-bold text-xl">Send me a message</div>
                           <div class="grid grid-cols-1 space-y-5">
                               <div class="flex flex-col space-y-1 col-span-3">
                                   <label for="name" class="font-semibold">Name</label>
-                                  <input type="text" placeholder="Your name" class="border shadow-sm outline-none border-1 rounded p-1 px-3" id=""/>
+                                  <input type="text" placeholder="Your name" class="border shadow-sm outline-none  rounded p-1 px-3" id=""/>
                               </div>
                               <div class="flex flex-col space-y-1 md:col-span-2 col-span-3">
                                   <label for="name" class="font-semibold">Email</label>
-                                  <input type="email" placeholder="example@gmail.com" class="border shadow-sm outline-none border-1 rounded p-1 px-3" id=""/>
+                                  <input type="email" placeholder="example@gmail.com" class=" shadow-sm outline-none  rounded p-1 px-3" id=""/>
                               </div>
                               <div class="flex flex-col space-y-1 col-span-3">
                                   <label for="name" class="font-semibold">Message</label>
-                                  <textarea name="" placeholder="Write your message" class="col-span-3 border shadow-sm outline-none border-1 rounded p-1 px-3" id=""></textarea>
+                                  <textarea name="" placeholder="Write your message" class="col-span-3 border shadow-sm outline-none  rounded p-1 px-3" id=""></textarea>
                               </div>
                           <button type="submit" class="col-span-3 px-4 py-1 bg-[#0c2650] shadow-sm text-white rounded">Send Message</button>
                           </div>
@@ -329,14 +329,14 @@ function App() {
                       <div class="md:flex md:col-span-2 flex-col col-span-2 lg:col-span-1 hidden gap-4">
                           <div class="flex text-3xl items-center gap-3">
                               <img src="./images/logo-03.png" class="w-12 h-12" alt="" srcset=""/>
-                              <p class="font-semibold text-[#fff]">BURHAAN</p>
+                              <p class="font-semibold text-white">BURHAAN</p>
                           </div>
                           <p class="text-sm text-[#fffc]">I build smart, functional web systems that simplify daily office and learning operations. 
                               {/* <strong>PHP | MySQL | React | Tailwind CSS</strong> */}
                           </p>
                       </div>
                       <div class="space-y-5">
-                          <div class="font-bold text-[#fff] text-xl">Quick Links</div>
+                          <div class="font-bold text-white text-xl">Quick Links</div>
                           <div class="nav text-[#fffc] text-md flex flex-col">
                               <a href="#home" class="">Home</a>
                               <a href="#about" class="">About</a>
@@ -345,7 +345,7 @@ function App() {
                           </div>
                       </div>
                       <div class="space-y-5">
-                          <div class="font-bold text-[#fff] text-xl">Services</div>
+                          <div class="font-bold text-white text-xl">Services</div>
                           <div class="nav text-[#fffc] text-md flex flex-col">
                               <a href="#" class="">Web Design</a>
                               <a href="#" class="">Web Developement</a>
@@ -353,32 +353,32 @@ function App() {
                           </div>
                       </div>
                       <div class="space-y-5">
-                          <div class="font-bold text-[#fff] text-xl">Get In Touch</div>
+                          <div class="font-bold text-white text-xl">Get In Touch</div>
                           <div class="flex gap-4">
                               <a href="tel:+252614048777" class="flex items-center gap-3 font-semibold text-white">
-                                  <div class="rounded-lg bg-[#f3911d]  hover:bg-[#fff] hover:text-[#f3911d] w-10 py-1 flex justify-center items-center">
+                                  <div class="rounded-lg bg-[#f3911d]  hover:bg-white hover:text-[#f3911d] w-10 py-1 flex justify-center items-center">
                                       <i class="fab fa-facebook text-xl"></i>
                                   </div>
                               </a>
                               <a href="tel:+252614048777" class="flex items-center gap-3 font-semibold text-white">
-                                  <div class="rounded-lg bg-[#f3911d]  hover:bg-[#fff] hover:text-[#f3911d] w-10 py-1 flex justify-center items-center">
+                                  <div class="rounded-lg bg-[#f3911d]  hover:bg-white hover:text-[#f3911d] w-10 py-1 flex justify-center items-center">
                                       <i class="fab fa-instagram text-xl"></i>
                                   </div>
                               </a>
                               <a href="tel:+252614048777" class="flex items-center gap-3 font-semibold text-white">
-                                  <div class="rounded-lg bg-[#f3911d]  hover:bg-[#fff] hover:text-[#f3911d] w-10 py-1 flex justify-center items-center">
+                                  <div class="rounded-lg bg-[#f3911d]  hover:bg-white hover:text-[#f3911d] w-10 py-1 flex justify-center items-center">
                                       <i class="fab fa-linkedin text-xl"></i>
                                   </div>
                               </a>
                           </div>
                       </div>
                   </div>
-                  <div class="grid grid-cols-3 text-[#fffc] py-6 border-[#fff8] border-t-[1px] gap-5">
+                  <div class="grid grid-cols-3 text-[#fffc] py-6 border-[#fff8] border-t gap-5">
                       <div class="md:col-span-2 col-span-3 flex md:justify-start justify-center">
                           <p>&copy;2025 <a href="">Burhaan Ali | Developed With ❤️</a></p>
                       </div>
                       <a href="#home" class="flex items-center md:justify-end justify-center md:col-span-1 col-span-3 gap-3 font-semibold text-white">
-                              <div class="rounded-lg bg-[#0c265022] border  hover:bg-[#f3911d] hover:text-[#fff] w-10 py-1 flex justify-center items-center">
+                              <div class="rounded-lg bg-[#0c265022] border  hover:bg-[#f3911d] hover:text-white w-10 py-1 flex justify-center items-center">
                                   <i class="fas fa-arrow-up text-xl"></i>
                               </div>
                               <div class="space-y-[-5px]">
