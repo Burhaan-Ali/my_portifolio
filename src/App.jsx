@@ -1,6 +1,8 @@
 import React from "react"
 import logo from "./assets/logo-03.png"
+import logo_white from "./assets/logo-02.png"
 import hero_iconi_mg from "./assets/hero icon-03.png"
+import hero_iconi_white from "./assets/hero img-white.png"
 import hero_img from "./assets/b-hero-02.png"
 import aboutImg from "./assets/hero img-04 copy.png"
 import bg from "./assets/bg.jpg"
@@ -33,7 +35,12 @@ function App() {
           <div class="px-6 py-12 " id="home">
               <div class="max-w-5xl mx-auto grid md:grid-cols-2 grid-cols-1">
                   <div class="flex flex-col justify-center gap-5">
-                      <img src={hero_iconi_mg} class="w-8" alt="" srcset=""/>
+                      <div className="dark:hidden flex">
+                        <img src={hero_iconi_mg} class="w-8" alt="" srcset=""/>
+                      </div>
+                      <div className="dark:flex hidden">
+                        <img src={hero_iconi_white} class="w-8" alt="" srcset=""/>
+                      </div>
                       <div class="text-lg font-semibold">I am <span class="text-[#f3911d]">burhaan</span> ali</div>
                       <div class="text-3xl md:text-4xl font-extrabold">Full Stack Developer</div>
                       <p class="text-lg text-gray-600 dark:text-gray-100">I build smart, functional web systems that simplify daily office and learning operations. 
@@ -75,30 +82,31 @@ function App() {
                   </div>
               </div>  */}
               <div class="max-w-5xl mx-auto flex flex-wrap justify-center gap-4 dark:text-[#0c2650]">
-                  <div class="bg-linear-to-bl from-white to-indigo-100 rounded shadow-md border cursor-pointer group hover:bg-[#0c2650] p-4 w-[300px] py-6">
+                  <div class="bg-linear-to-bl dark:from-black dark:to-[#0c2650] from-white to-indigo-100 rounded shadow-md border cursor-pointer group hover:bg-[#0c2650] p-4 md:w-[300px] w-full py-6 dark:border-[#f3911d] ">
                       <div class="flex flex-col items-center">
                           <div class="text-center text-[#f3911d]">
                               <i class="fas fa-computer text-4xl"></i>
                           </div>
-                          <div class="font-semibold text-xl">Web Developement</div>
+                          <div class="font-semibold text-xl dark:text-white">Web Design</div>
                       </div>
                   </div>
-                  <div class="bg-gradient-to-t from-white to-indigo-100 rounded shadow-md border cursor-pointer group hover:bg-[#0c2650] p-4 w-[300px] py-6">
+                  <div class="bg-linear-to-tb dark:from-black dark:to-[#0c2650] from-white to-indigo-100 rounded shadow-md border cursor-pointer group hover:bg-[#0c2650] p-4 md:w-[300px] w-full py-6 dark:border-[#f3911d] ">
                       <div class="flex flex-col items-center">
                           <div class="text-center text-[#f3911d]">
                               <i class="fas fa-computer text-4xl"></i>
                           </div>
-                          <div class="font-semibold text-xl">Web Design</div>
+                          <div class="font-semibold text-xl dark:text-white">Web Developement</div>
                       </div>
                   </div>
-                  <div class="bg-gradient-to-tr from-white to-indigo-100 rounded shadow-md border cursor-pointer group hover:bg-[#0c2650] p-4 w-[300px] py-6">
+                  <div class="bg-linear-to-tl dark:from-black dark:to-[#0c2650] from-white to-indigo-100 rounded shadow-md border cursor-pointer group hover:bg-[#0c2650] p-4 md:w-[300px] w-full py-6 dark:border-[#f3911d] ">
                       <div class="flex flex-col items-center">
                           <div class="text-center text-[#f3911d]">
                               <i class="fas fa-computer text-4xl"></i>
                           </div>
-                          <div class="font-semibold text-xl">Graphic Design</div>
+                          <div class="font-semibold text-xl dark:text-white">Graphic Design</div>
                       </div>
                   </div>
+                 
               </div>
           </div>
           <div class="px-6 py-12 space-y-8 bg-[#0c2650] text-[#f5f8fa]" id="about">
@@ -184,7 +192,7 @@ function App() {
                       <div class="rounded overflow-hidden border border-[#] shadow-md dark:shadow-[#fff8] w-[350px] hover:text-[#fff] group hover:bg-[#0c2650] cursor-pointer">
                           <div class="text-center bg-[#f3911d] text-white p-2 group-hover:bg-[#0c2650] font-semibold">Weather Now App</div>
                           <div class="space-y-2">
-                              <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hidden" >
+                              <div class="w-100 h-[200px] p-1 bg-[#fff] overflow-hidnden" >
                                   <img src={bg} alt="" class="h-full w-full" srcset=""/>
                               </div>
                               <p class="px-4"> Cid walba oo itoobiya taageerta waa in dalka laga tarxiilaa,ama xasiga la dhigaa hadii kale waxaa imaan doono qaa imiin.</p>
